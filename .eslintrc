@@ -1,0 +1,16 @@
+{
+   "extends": ["react-app", "shared-config"],
+   "rules": {
+      "additional-rule": "warn",
+      "eqeqeq": "error"
+   },
+   "overrides": [
+      {
+         "files": ["**/*.ts?(x)"],
+         "rules": {
+            "additional-typescript-only-rule": "warn",
+            "eqeqeq": "error"
+         }
+      }
+   ]
+}

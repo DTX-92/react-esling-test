@@ -1,0 +1,17 @@
+.chart-md {
+   height: 35vh;
+
+   @media (min-width: 768px) {
+      height: 300px;
+   }
+
+   .is-landscape & {
+      height: 300px;
+      max-height: 100vh;
+   }
+}
+
+.header-updated {
+   font-size: 14px;
+   white-space: nowrap;
+}
